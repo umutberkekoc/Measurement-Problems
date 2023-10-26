@@ -1,0 +1,36 @@
+# AB Testi ile BiddingYöntemlerinin Dönüşümünün Karşılaştırılması
+
+
+
+Facebook kısa süre önce mevcut "maximumbidding" adı verilen teklif verme türüne alternatif olarak yeni bir 
+teklif türü olan "averagebidding"’i tanıttı. Müşterilerimizden biri olanbombabomba.com, bu yeni özelliği 
+test etmeye karar verdi ve averagebidding'inmaximumbidding'dendaha fazla dönüşüm getirip getirmediğinianlamak 
+için birA/B testiyapmak istiyor. A/B testi 1 aydır devam ediyor ve bombabomba.comşimdi sizden bu A/B testinin sonuçlarını analiz etmenizi bekliyor. Bombabomba.com için nihai başarı ölçütü Purchase'dır. 
+Bu nedenle,istatistiksel testler için Purchase metriğine odaklanılmalıdır.
+
+
+# Impression --> Reklam görüntüleme sayısı
+# Click --> Görüntülenen reklama tıklama sayısı
+# Purchase --> Tıklanan reklamlar sonrası satın alınan ürün sayısı
+# Earning --> Satın alınan ürünler sonrası elde edilen kazanç.
+
+
+
+# Görev 1:  Veriyi Hazırlama ve Analiz Etme
+
+# Adım 1:  ab_testing_data.xlsxadlı kontrol ve test grubu verilerinden oluşan veri setini okutunuz.
+# Kontrol ve test grubu verilerini ayrı değişkenlere atayınız
+
+# Adım 2: Kontrol ve test grubu verilerini analiz ediniz.
+
+# Adım 3: Analiz işleminden sonra concatmetodunu kullanarak kontrol ve test grubu verilerini birleştiriniz.
+
+
+#Görev 2:  A/B Testinin Hipotezinin Tanımlanması
+# Adım 1: Hipotezi tanımlayınız
+
+# Adım 2: Kontrol ve test grubu için purchase(kazanç) ortalamalarını analiz ediniz.
+
+#Görev 3:  Hipotez Testinin Gerçekleştirilmesi
+# Adım 1: Hipotez testi yapılmadan önce varsayım kontrollerini yapınız.
+# Kontrol ve test grubunun normallik varsayımına uyup uymadığını Purchase değişkeni üzerinden ayrı ayrı test ediniz.
